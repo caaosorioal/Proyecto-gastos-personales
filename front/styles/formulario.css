@@ -1,0 +1,96 @@
+#contenedorPrinicipal{
+    background-color: #f6f6f6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    height: 380;
+    width: 500;
+    border-radius: 25px;
+    box-shadow: 5px 15px 15px 5px rgb(0, 0, 0, 0.1);
+}
+
+#LogoBancolombia{
+    margin-left: 7%;
+    margin-top: 35px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#FormularioPrincipalDatos{
+    width: 500;
+    height: 150;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.LabelTitulo{
+    text-align: center;
+    margin-top: 90px;
+    color: #6d6e71;
+    font-size: 50px;
+    font-family: 'Almarai', sans-serif;
+}
+
+.ImagenEncabezado{
+    width: 400;
+    height: 100;
+    margin: auto;
+    image-resolution: 200dpi;
+    background-repeat: no-repeat;
+    display: block;
+    justify-content: center;
+}
+
+.EntradaDatosFormulario{
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.LabelFormulario{
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: #6d6e71;
+}
+
+.IngresarDatos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200;
+    height: 50;
+}
+
+#ContenedorBotonEntrar{
+    text-align: center;
+    padding: 23px;
+}
+
+#Entrar{
+    margin-left: auto;
+    position: relative;
+    width: 100px;
+    height: 25px;
+    background-color: #ffd200;
+    color: black;
+    border: none;
+}
+
+#Entrar:hover{
+    background-color: #6d6e71;
+    color: white;
+}
