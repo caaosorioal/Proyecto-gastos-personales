@@ -1,5 +1,6 @@
 import eel
 import os
+from validarCredenciales import validarEntrada
 
 directorio = os.path.dirname(__file__)
 

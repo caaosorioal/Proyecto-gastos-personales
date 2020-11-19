@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 130px;
-    height: 380;
+    height: 395;
     width: 500;
     border-radius: 25px;
     box-shadow: 5px 15px 15px 5px rgb(0, 0, 0, 0.1);
@@ -81,6 +81,7 @@
 #ContenedorBotonEntrar{
     text-align: center;
     padding: 23px;
+    display: block;
 }
 
 #Entrar{
@@ -97,4 +98,9 @@
 #Entrar:hover{
     background-color: #6d6e71;
     color: white;
+}
+
+#LoginFallido, #FaltanCampos{
+    color: red;
+    font-family: 'Almarai', sans-serif;
 }

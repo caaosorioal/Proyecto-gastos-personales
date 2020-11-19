@@ -1,11 +1,13 @@
 <meta charset="UTF-8">
 <html>
     <head>
+        <script type="text/javascript" src="/eel.js"></script>
         <link rel="stylesheet" type = "text/css" href = "styles/formulario.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/mostrarContenedorPrincipal.js"></script>
+        <script src="js/obtenerDatosyValidar.js"></script>
     </head>
 
     <header>
@@ -39,6 +41,9 @@
                     <button id="Entrar">
                         Entrar
                     </button>
+
+                    <p id = "LoginFallido"> Autenticación fallida. Usuario o contraseña inválida </p>
+                    <p id = "FaltanCampos"> ¡Faltan rellenar campos! </p>
                 </div>
         </div>
     </body>
