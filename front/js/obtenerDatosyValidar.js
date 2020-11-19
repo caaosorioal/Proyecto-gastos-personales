@@ -15,17 +15,17 @@ $(document).ready(function(){
     $('#Entrar').click(async function(){
         $('#LoginFallido').hide();
         $('#FaltanCampos').hide();
-        
+
         usuario = $('#UsuarioTexto').val();
         contraseña = $('#ContraseñaTexto').val();
 
         if (!usuario || !contraseña){
             $('#FaltanCampos').show(300);
         } else {        
-            contraseñaHash = await eel.validarEntrada(usuario, contraseña)();
+            resultadoValidacion = await eel.validarEntrada(usuario, contraseña)();
 
-            if (contraseñaHash == 1) {
-                alert('Válido!')
+            if (resultadoValidacion == 1) {
+                eel.abrirPaginaDatos();
             } else {
                 $('#LoginFallido').show(300);
             };
