@@ -23,9 +23,14 @@ $(document).ready(function(){
             $('#FaltanCampos').show(300);
         } else {        
             resultadoValidacion = await eel.validarEntrada(usuario, contraseña)();
-
             if (resultadoValidacion == 1) {
                 eel.abrirPaginaDatos();
+
+                $(document).ready(function(){
+                    $('#Autenticador').load("autenticacionValida.html", function() {
+                        $(this).show();
+                    });
+                });
             } else {
                 $('#LoginFallido').show(300);
             };
